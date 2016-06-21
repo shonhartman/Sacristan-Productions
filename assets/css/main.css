@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Bitter:400,700|Pacifico");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Bitter:400,700|Garamond");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Bitter:400,700|Puritan");
 
 /*
 	Landscape by Pixelarity
@@ -101,7 +102,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family: "Garamond", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.65;
@@ -150,11 +151,14 @@
 	}
 
 	p {
+		font-family: puritan;
+		font-weight: lighter;
 		margin: 0 0 2em 0;
+		letter-spacing: 0.15em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Bitter", serif;
+		font-family: "Garamond", serif;
 		font-weight: 700;
 		line-height: 1.4;
 		margin: 0 0 1em 0;
@@ -174,7 +178,7 @@
 		}
 
 	h1 {
-		font-family: "Pacifico", cursive;
+		font-family: "Garamond", cursive;
 		font-weight: 400;
 		font-size: 3.25em;
 		margin: 0 0 0.25em 0;
@@ -201,8 +205,8 @@
 	}
 
 	header {
-		font-family: "Bitter", serif;
-		font-weight: 400;
+		font-family: "Puritan", serif;
+		font-weight: 100;
 	}
 
 		header p {
@@ -259,7 +263,7 @@
 	code {
 		border-radius: 4px;
 		border: solid 1px;
-		font-family: "Courier New", monospace;
+		font-family: "Puritan", monospace;
 		font-size: 0.9em;
 		font-weight: 400;
 		margin: 0 0.25em;
@@ -268,7 +272,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Puritan", monospace;
 		font-size: 0.9em;
 		font-weight: 400;
 		margin: 0 0 2em 0;
@@ -997,8 +1001,8 @@
 		background-color: transparent;
 		border: solid 1px !important;
 		color: inherit;
-		font-family: "Bitter", serif;
-		font-weight: 400;
+		font-family: "Puritan", serif;
+		font-weight: 100;
 		letter-spacing: 0.25em;
 		text-transform: uppercase;
 		font-size: 0.8em;
@@ -1185,10 +1189,10 @@
 						height: 3.5em;
 						border-radius: 4px;
 						padding: 0 2em;
-						font-family: "Bitter", serif;
-						font-weight: 400;
+						font-family: "Puritan", serif;
+						font-weight: 100;
 						text-transform: uppercase;
-						letter-spacing: 0.25em;
+						letter-spacing: 0.40em;
 						font-size: 0.7em;
 						outline: 0;
 					}
